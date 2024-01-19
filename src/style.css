@@ -1,0 +1,72 @@
+.hero{
+    background-image: url('../img/baby-groot.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    /* filter: brightness(80%); */
+  }
+  /* .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+  } */
+  .top-stick{
+    position: sticky;
+    top: 0;
+  }
+  .blured{
+    --tw-backdrop-blur: blur(20px);
+    backdrop-filter: var(--tw-backdrop-blur)
+     var(--tw-backdrop-brightness)
+      var(--tw-backdrop-contrast)
+       var(--tw-backdrop-grayscale)
+        var(--tw-backdrop-hue-rotate)
+         var(--tw-backdrop-invert)
+          var(--tw-backdrop-opacity)
+           var(--tw-backdrop-saturate)
+            var(--tw-backdrop-sepia);
+  }
+  .darks{
+  background: linear-gradient(-45deg, #111827, #01477c, #111827, #111827, #024385, #111827 );
+  background-size: 400% 400%;
+  height: 100hv;
+  animation: gradient 70s ease infinite;
+  }
+  @keyframes gradient {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+  /* Add custom styles here */
+  .animated-bg {
+    background: linear-gradient(45deg, #001f3f, #0074cc, #03478b, #0074cc, #024385); /* Dark blue to blue to white */
+    background-size: 300% 300%;
+    
+    animation: gradientChange 9s infinite alternate; /* Change '5s' to adjust the animation duration */
+  }
+.bcolor{
+  border-color: linear-gradient(45deg, #001f3f, #034f8a, #03478b, #024385); /* Dark blue to blue to white */
+    animation: gradientChange 9s infinite alternate; /* Change '5s' to adjust the animation duration */
+}
+  @keyframes gradientChange {
+    0% {
+      background-position: 0% 50%;
+      border-color: #001f3f; 
+    }
+    100% {
+      background-position: 100% 50%;
+      border-color: #ffffff;
+    }
+  }
+.cover{
+  background-size: cover;
+}

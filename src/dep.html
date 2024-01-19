@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" /> -->
+
+</head>
+<body>
+<div class="darks"> 
+<nav class="shadow-lg border-gray-200 top-stick px-4 lg:px-6 py-2.5 blured">
+      <div class="flex justify-between items-center text-white mx-auto max-w-screen-xl">
+          <a href="index.html" class="flex items-center">
+              <span class="self-center text-xl animated-color font-semibold whitespace-nowrap text-bold text-white">LOGO HERE</span>
+          </a>
+          <div class="flex items-center lg:order-2">
+
+              <a href="#" class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 animated-bg border-solid ">Get started</a>
+              <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                  <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              </button>
+          </div>
+          <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+              <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                  <li>
+                      
+                      <a id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="text-white rounded-lg text-center items-center " type="button">Resources</a>
+                          
+                          <!-- Dropdown menu -->
+                          <div id="dropdownHover" class=" z-10 hidden divide-y divide-gray-100 rounded-lg shadow w-auto dark:bg-gray-700">
+                              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200 w-auto" aria-labelledby="dropdownHoverButton">
+                                  <li>
+                                  <a href="research.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Research</a>
+                                </li>
+                                <li>
+                                    <a href="events.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Events</a>
+                                  </li>
+                                  <li> 
+                                    <a id="subdropdownHoverButton" data-dropdown-toggle="subdropdownHover" data-dropdown-trigger="hover" class="flex px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white " type="button">Programs
+
+                                        <svg class="ml-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>  
+                                    </a>
+                                </li>
+                                </ul>
+                          </div>
+
+          <!-- SubDropdown menu -->
+
+                          <div id="subdropdownHover" class="z-10  hidden w-auto bg-gray-700 rounded-sm divide-x text-sm text-gray-700 dark:text-gray-200" aria-labelledby="subdropdownHoverButton">
+
+                            <span>
+                              <a href="pograd.html" class="inline-flex px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Post-Graduate</a>
+                            </span>
+                            <span>
+                                    <a href="ptime.html" class="inline-flex px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Part-Time</a>
+                                  </span>
+
+                          </div>
+
+                  </li>
+                  <li>
+                      <a href="dep.html" class="block py-2 pr-4 pl-3 border-b border-gray-100 lg:border-0  lg:p-0 hover:text-blue-500">Departments</a>
+                      
+                  </li>
+                  <li>
+                      <a href="events.html" class="block py-2 pr-4 pl-3 border-b border-gray-100 lg:border-0  lg:p-0 hover:text-blue-500">Events</a>
+                  </li>
+                  <li>
+                      <a href="about.html" class="block py-2 pr-4 pl-3 border-b border-gray-100 lg:border-0  lg:p-0 hover:text-blue-500">About US</a>
+                    </li>
+              </ul>
+
+          </div>
+
+      </div>
+      
+</nav>
+
+<section class=" w-full p-24">
+    <h1 class="mb-4 text-4xl font-bold text-center text-gray-900 md:text-5xl lg:text-6xl dark:text-white uppercase">List of Departments available</h1>
+    <p class="mb-8 text-lg font-normal text-center text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit necessitatibus eos aliquid excepturi.</p>
+</section>
+
+
+<div class="grid grid-cols-3 gap-4 justify-center px-4 mb-24">
+
+    
+
+<div class="flex relative border-solid bg-gray-300 bg-opacity-10 backdrop-filter backdrop-blur-lg max-w-sm w-col h-48 rounded-lg lg:max-w-full lg:flex hover:scale-105 transition-all duration-100 ease-in-out ">
+    <div class="h-48 lg:h-auto bg-opacity-60 backdrop-blur-lg flex p-5 lg:w-40 flex-none bg-transparent rounded-t lg:rounded-t lg:rounded-l text-center overflow-hidden">
+        <img class="w-28 h-28 rounded-full m-auto justify-center hover:scale-110 ease-in-out transition-all duration-100" src="../img/baby-groot.jpg" alt="Avatar of Jonathan Reinink">
+    </div>
+    <div class=" border-l border-gray-400 lg:border-l-0 lg:border-gray-400 bg-white bg-opacity-50  ease-in-out transition-all duration-100 backdrop-filter backdrop-blur-lg rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+
+        <div class="text-gray-900 font-bold text-md mb-1 inherit uppercase px-2">Computer science</div>
+        <p class="text-gray-900 text-base mx-2 h-20 overflow-y-hidden inherit"> lore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis.</p>
+      </div>
+
+        <a href="#" class="text-white inherit bottom-0 text-center w-full bg-primary-700 hover:bg-primary-800 focus:ring-4 shadow-md focus:ring-primary-300 font-medium text-sm px-2 lg:px-4 py-2 lg:py-1 animated-bg">Visit</a>
+
+
+    </div>
+</div>
+
+
+<div class="flex relative border-solid bg-gray-300 bg-opacity-10 backdrop-filter backdrop-blur-lg max-w-sm w-col h-48 rounded-lg lg:max-w-full lg:flex hover:scale-105 transition-all duration-100 ease-in-out ">
+    <div class="h-48 lg:h-auto bg-opacity-60 backdrop-blur-lg flex p-5 lg:w-40 flex-none bg-transparent rounded-t lg:rounded-t lg:rounded-l text-center overflow-hidden">
+        <img class="w-28 h-28 rounded-full m-auto justify-center hover:scale-110 ease-in-out transition-all duration-100" src="../img/baby-groot.jpg" alt="Avatar of Jonathan Reinink">
+    </div>
+    <div class=" border-l border-gray-400 lg:border-l-0 lg:border-gray-400 bg-white bg-opacity-50  ease-in-out transition-all duration-100 backdrop-filter backdrop-blur-lg rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+
+        <div class="text-gray-900 font-bold text-md mb-1 inherit uppercase px-2">Micro-Biology</div>
+        <p class="text-gray-900 text-base mx-2 h-20 overflow-y-hidden inherit"> lore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis.</p>
+      </div>
+
+        <a href="#" class="text-white inherit bottom-0 text-center w-full bg-primary-700 hover:bg-primary-800 focus:ring-4 shadow-md focus:ring-primary-300 font-medium text-sm px-2 lg:px-4 py-2 lg:py-1 animated-bg">Visit</a>
+
+
+    </div>
+</div>
+
+
+
+<div class="flex relative border-solid bg-gray-300 bg-opacity-10 backdrop-filter backdrop-blur-lg max-w-sm w-col h-48 rounded-lg lg:max-w-full lg:flex hover:scale-105 transition-all duration-100 ease-in-out ">
+    <div class="h-48 lg:h-auto bg-opacity-60 backdrop-blur-lg flex p-5 lg:w-40 flex-none bg-transparent rounded-t lg:rounded-t lg:rounded-l text-center overflow-hidden">
+        <img class="w-28 h-28 rounded-full m-auto justify-center hover:scale-110 ease-in-out transition-all duration-100" src="../img/baby-groot.jpg" alt="Avatar of Jonathan Reinink">
+    </div>
+    <div class=" border-l border-gray-400 lg:border-l-0 lg:border-gray-400 bg-white bg-opacity-50  ease-in-out transition-all duration-100 backdrop-filter backdrop-blur-lg rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+
+        <div class="text-gray-900 font-bold text-md mb-1 inherit uppercase px-2">Bio-Chemistry</div>
+        <p class="text-gray-900 text-base mx-2 h-20 overflow-y-hidden inherit"> lore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis.</p>
+      </div>
+
+        <a href="#" class="text-white inherit bottom-0 text-center w-full bg-primary-700 hover:bg-primary-800 focus:ring-4 shadow-md focus:ring-primary-300 font-medium text-sm px-2 lg:px-4 py-2 lg:py-1 animated-bg">Visit</a>
+
+
+    </div>
+</div>
+
+
+<div class="flex relative border-solid bg-gray-300 bg-opacity-10 backdrop-filter backdrop-blur-lg max-w-sm w-col h-48 rounded-lg lg:max-w-full lg:flex hover:scale-105 transition-all duration-100 ease-in-out ">
+    <div class="h-48 lg:h-auto bg-opacity-60 backdrop-blur-lg flex p-5 lg:w-40 flex-none bg-transparent rounded-t lg:rounded-t lg:rounded-l text-center overflow-hidden">
+        <img class="w-28 h-28 rounded-full m-auto justify-center hover:scale-110 ease-in-out transition-all duration-100" src="../img/baby-groot.jpg" alt="Avatar of Jonathan Reinink">
+    </div>
+    <div class=" border-l border-gray-400 lg:border-l-0 lg:border-gray-400 bg-white bg-opacity-50  ease-in-out transition-all duration-100 backdrop-filter backdrop-blur-lg rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+
+        <div class="text-gray-900 font-bold text-md mb-1 inherit uppercase px-2">Geology</div>
+        <p class="text-gray-900 text-base mx-2 h-20 overflow-y-hidden inherit"> lore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis.</p>
+      </div>
+
+        <a href="#" class="text-white inherit bottom-0 text-center w-full bg-primary-700 hover:bg-primary-800 focus:ring-4 shadow-md focus:ring-primary-300 font-medium text-sm px-2 lg:px-4 py-2 lg:py-1 animated-bg">Visit</a>
+
+
+    </div>
+</div>
+
+
+
+<div class="flex relative border-solid bg-gray-300 bg-opacity-10 backdrop-filter backdrop-blur-lg max-w-sm w-col h-48 rounded-lg lg:max-w-full lg:flex hover:scale-105 transition-all duration-100 ease-in-out ">
+    <div class="h-48 lg:h-auto bg-opacity-60 backdrop-blur-lg flex p-5 lg:w-40 flex-none bg-transparent rounded-t lg:rounded-t lg:rounded-l text-center overflow-hidden">
+        <img class="w-28 h-28 rounded-full m-auto justify-center hover:scale-110 ease-in-out transition-all duration-100" src="../img/baby-groot.jpg" alt="Avatar of Jonathan Reinink">
+    </div>
+    <div class=" border-l border-gray-400 lg:border-l-0 lg:border-gray-400 bg-white bg-opacity-50  ease-in-out transition-all duration-100 backdrop-filter backdrop-blur-lg rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+
+        <div class="text-gray-900 font-bold text-md mb-1 inherit uppercase px-2">Mathematics</div>
+        <p class="text-gray-900 text-base mx-2 inherit"> lore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis.</p>
+      </div>
+
+        <a href="#" class="text-white inherit bottom-0 text-center w-full bg-primary-700 hover:bg-primary-800 focus:ring-4 shadow-md focus:ring-primary-300 font-medium text-sm px-2 lg:px-4 py-2 lg:py-1 animated-bg">Visit</a>
+
+
+    </div>
+</div>
+
+
+<div class="flex relative border-solid bg-gray-300 bg-opacity-10 backdrop-filter backdrop-blur-lg max-w-sm w-col h-48 rounded-lg lg:max-w-full lg:flex hover:scale-105 transition-all duration-100 ease-in-out ">
+    <div class="h-48 lg:h-auto bg-opacity-60 backdrop-blur-lg flex p-5 lg:w-40 flex-none bg-transparent rounded-t lg:rounded-t lg:rounded-l text-center overflow-hidden">
+        <img class="w-28 h-28 rounded-full m-auto justify-center hover:scale-110 ease-in-out transition-all duration-100" src="../img/baby-groot.jpg" alt="Avatar of Jonathan Reinink">
+    </div>
+    <div class=" border-l border-gray-400 lg:border-l-0 lg:border-gray-400 bg-white bg-opacity-50  ease-in-out transition-all duration-100 backdrop-filter backdrop-blur-lg rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+      <div class="mb-8">
+
+        <div class="text-gray-900 font-bold text-md mb-1 inherit uppercase px-2">Goe-Physics</div>
+        <p class="text-gray-900 text-base mx-2 inherit"> lore Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis.</p>
+      </div>
+
+        <a href="#" class="text-white inherit bottom-0 text-center w-full bg-primary-700 hover:bg-primary-800 focus:ring-4 shadow-md focus:ring-primary-300 font-medium text-sm px-2 lg:px-4 py-2 lg:py-1 animated-bg">Visit</a>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script> -->
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+</body>
+</html>
